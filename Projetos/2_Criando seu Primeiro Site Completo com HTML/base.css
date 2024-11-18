@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    min-height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+    width: 85%;
+    height: 100vh;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    flex: 1;
+    overflow-y: auto;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+}
